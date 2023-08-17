@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Background/background.png');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
+
+.window {
+    background-color: #222;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.title-bar {
+    background-color: #2f2f2f;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    user-select: none;
+}
+
+.title {
+    color: white;
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.close-button, .minimize-button, .maximize-button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.close-button {
+    background-color: #ff5f57;
+}
+
+.minimize-button {
+    background-color: #ffbd2e;
+}
+
+.maximize-button {
+    background-color: #28c940;
+}
+
+.content {
+    padding: 20px;
+    color: white;
+}
+
+.discord-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7289da;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.discord-link:hover {
+    background-color: #5865a1;
+}
