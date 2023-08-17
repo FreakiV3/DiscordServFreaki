@@ -74,3 +74,21 @@ body {
 .discord-link:hover {
     background-color: #5865a1;
 }
+.social-links {
+    margin-top: 20px;
+}
+
+.social-link {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.social-link:hover {
+    background-color: #555;
+}
